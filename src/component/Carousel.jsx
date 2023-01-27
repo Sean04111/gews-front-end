@@ -16,16 +16,16 @@ export const Carou = () => (
     className="Image"
   >
     <div>
-      <h3 style={contentStyle}>广告位</h3>
+      <h3 style={contentStyle}>pic1</h3>
     </div>
     <div>
-      <h3 style={contentStyle}>广告位</h3>
+      <h3 style={contentStyle}>pic2</h3>
     </div>
     <div>
-      <h3 style={contentStyle}>广告位</h3>
+      <h3 style={contentStyle}>pic3</h3>
     </div>
     <div>
-      <h3 style={contentStyle}>广告位</h3>
+      <h3 style={contentStyle}>pic4</h3>
     </div>
   </Carousel>
 )

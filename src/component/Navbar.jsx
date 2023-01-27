@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {
   AppstoreOutlined,
-    SettingOutlined,
+  SettingOutlined,
   HomeOutlined,
   SmileOutlined,
   FireOutlined,
@@ -9,6 +9,8 @@ import {
   MessageOutlined,
   FireFilled,
   UserOutlined,
+  AccountBookOutlined, 
+  MessageFilled
 } from '@ant-design/icons'
 import { Menu } from 'antd'
 import './style.css';
@@ -20,7 +22,7 @@ const items = [
       <HomeOutlined
         style={{
           fontSize: 20,
-          color:"red"
+          color: 'red',
         }}
       />
     ),
@@ -32,7 +34,7 @@ const items = [
       <FireFilled
         style={{
           fontSize: 20,
-          color:"orange"
+          color: 'orange',
         }}
       />
     ),
@@ -44,7 +46,7 @@ const items = [
       <UserOutlined
         style={{
           fontSize: 20,
-          color:"green"
+          color: 'green',
         }}
       />
     ),
@@ -56,10 +58,20 @@ const items = [
       <MessageOutlined
         style={{
           fontSize: 20,
-          color:"blue"
+          color: 'blue',
         }}
       />
     ),
+  },
+  {
+    label: `GoodBuy`,
+    key: `GoodBuy`,
+    icon: <AccountBookOutlined 
+      style={{
+        fontSize: 20,
+        color:'red',
+      }}
+    />,
   },
   {
     label: 'Settings',

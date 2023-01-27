@@ -23,7 +23,7 @@ export const Layer = () => {
                     </Content>
                 </Layout>
             </Content>
-            <Footer>Footer</Footer>
+            <Footer></Footer>
         </Layout>
     </>
     )
